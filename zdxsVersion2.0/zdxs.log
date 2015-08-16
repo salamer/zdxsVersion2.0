@@ -1,0 +1,566 @@
+*** Starting uWSGI 2.0.11.1 (64bit) on [Fri Aug  7 21:24:34 2015] ***
+compiled with version: 4.8.2 on 26 July 2015 22:25:07
+os: Linux-3.13.0-24-generic #47-Ubuntu SMP Fri May 2 23:30:00 UTC 2014
+nodename: AljunPC
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/aljun/zdxs/zdxs
+writing pidfile to /tmp/zdxs-master.pid
+detected binary path: /home/aljun/myproject/venv/bin/uwsgi
+chdir() to /home/aljun/zdxs/zdxs
+your processes number limit is 30216
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/zdxs.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x270aa90
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145536 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x270aa90 pid: 6590 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6590)
+spawned uWSGI worker 1 (pid: 6593, cores: 1)
+*** Starting uWSGI 2.0.11.1 (64bit) on [Fri Aug  7 21:24:47 2015] ***
+compiled with version: 4.8.2 on 26 July 2015 22:25:07
+os: Linux-3.13.0-24-generic #47-Ubuntu SMP Fri May 2 23:30:00 UTC 2014
+nodename: AljunPC
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/aljun/zdxs/zdxs
+writing pidfile to /tmp/zdxs-master.pid
+detected binary path: /home/aljun/myproject/venv/bin/uwsgi
+chdir() to /home/aljun/zdxs/zdxs
+your processes number limit is 30216
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/zdxs.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2339a90
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145536 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x2339a90 pid: 6597 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6597)
+spawned uWSGI worker 1 (pid: 6600, cores: 1)
+...brutally killing workers...
+...brutally killing workers...
+worker 1 buried after 0 seconds
+worker 1 buried after 0 seconds
+binary reloading uWSGI...
+chdir() to /home/aljun/zdxs/zdxs
+binary reloading uWSGI...
+chdir() to /home/aljun/zdxs/zdxs
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (/tmp/zdxs.sock)
+found fd 3 mapped to socket 0 (/tmp/zdxs.sock)
+running /home/aljun/myproject/venv/bin/uwsgi
+running /home/aljun/myproject/venv/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.11.1 (64bit) on [Fri Aug  7 14:44:06 2015] ***
+*** Starting uWSGI 2.0.11.1 (64bit) on [Fri Aug  7 14:44:06 2015] ***
+compiled with version: 4.8.2 on 26 July 2015 22:25:07
+compiled with version: 4.8.2 on 26 July 2015 22:25:07
+os: Linux-3.13.0-24-generic #47-Ubuntu SMP Fri May 2 23:30:00 UTC 2014
+os: Linux-3.13.0-24-generic #47-Ubuntu SMP Fri May 2 23:30:00 UTC 2014
+nodename: AljunPC
+nodename: AljunPC
+machine: x86_64
+machine: x86_64
+clock source: unix
+clock source: unix
+pcre jit disabled
+pcre jit disabled
+detected number of CPU cores: 4
+detected number of CPU cores: 4
+current working directory: /home/aljun/zdxs/zdxs
+current working directory: /home/aljun/zdxs/zdxs
+detected binary path: /home/aljun/myproject/venv/bin/uwsgi
+detected binary path: /home/aljun/myproject/venv/bin/uwsgi
+chdir() to /home/aljun/zdxs/zdxs
+chdir() to /home/aljun/zdxs/zdxs
+your processes number limit is 30216
+your processes number limit is 30216
+your memory page size is 4096 bytes
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/zdxs.sock fd 3
+uwsgi socket 0 inherited UNIX address /tmp/zdxs.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x16a2750
+Python main interpreter initialized at 0x1bb8750
+your server socket listen backlog is limited to 100 connections
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+your mercy for graceful operations on workers is 60 seconds
+mapped 145536 bytes (142 KB) for 1 cores
+mapped 145536 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x16a2750 pid: 6590 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 6590)
+spawned uWSGI worker 1 (pid: 8137, cores: 1)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1bb8750 pid: 6597 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 6597)
+spawned uWSGI worker 1 (pid: 8138, cores: 1)
+*** Starting uWSGI 2.0.11.1 (64bit) on [Sat Aug  8 00:59:21 2015] ***
+compiled with version: 4.8.2 on 26 July 2015 22:25:07
+os: Linux-3.13.0-24-generic #47-Ubuntu SMP Fri May 2 23:30:00 UTC 2014
+nodename: AljunPC
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/aljun/zdxs/zdxs
+writing pidfile to /tmp/zdxs-master.pid
+detected binary path: /home/aljun/myproject/venv/bin/uwsgi
+chdir() to /home/aljun/zdxs/zdxs
+your processes number limit is 30216
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/aljun/zdxs/zdxs/zdxs.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+Set PythonHome to /home/aljun/myproject/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2536b80
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145536 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x2536b80 pid: 5731 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5731)
+spawned uWSGI worker 1 (pid: 5734, cores: 1)
+*** Starting uWSGI 2.0.11.1 (64bit) on [Sat Aug  8 01:02:11 2015] ***
+compiled with version: 4.8.2 on 26 July 2015 22:25:07
+os: Linux-3.13.0-24-generic #47-Ubuntu SMP Fri May 2 23:30:00 UTC 2014
+nodename: AljunPC
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/aljun/zdxs/zdxs
+writing pidfile to /tmp/zdxs-master.pid
+detected binary path: /home/aljun/myproject/venv/bin/uwsgi
+chdir() to /home/aljun/zdxs/zdxs
+your processes number limit is 30216
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/aljun/zdxs/zdxs/zdxs.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+Set PythonHome to /home/aljun/myproject/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1023b80
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145536 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1023b80 pid: 5757 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5757)
+spawned uWSGI worker 1 (pid: 5760, cores: 1)
+*** Starting uWSGI 2.0.11.1 (64bit) on [Sat Aug  8 01:03:25 2015] ***
+compiled with version: 4.8.2 on 26 July 2015 22:25:07
+os: Linux-3.13.0-24-generic #47-Ubuntu SMP Fri May 2 23:30:00 UTC 2014
+nodename: AljunPC
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/aljun/zdxs/zdxs
+writing pidfile to /home/aljun/zdxs/zdxs/zdxs-master.pid
+detected binary path: /home/aljun/myproject/venv/bin/uwsgi
+chdir() to /home/aljun/zdxs/zdxs
+your processes number limit is 30216
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/aljun/zdxs/zdxs/zdxs.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+Set PythonHome to /home/aljun/myproject/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1298b80
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145536 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1298b80 pid: 5778 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5778)
+spawned uWSGI worker 1 (pid: 5781, cores: 1)
+*** Starting uWSGI 2.0.11.1 (64bit) on [Sat Aug  8 01:07:58 2015] ***
+compiled with version: 4.8.2 on 26 July 2015 22:25:07
+os: Linux-3.13.0-24-generic #47-Ubuntu SMP Fri May 2 23:30:00 UTC 2014
+nodename: AljunPC
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/aljun/zdxs/zdxs
+writing pidfile to /home/aljun/zdxs/zdxs/zdxs-master.pid
+detected binary path: /home/aljun/myproject/venv/bin/uwsgi
+chdir() to /home/aljun/zdxs/zdxs
+your processes number limit is 30216
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/aljun/zdxs/zdxs/zdxs.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+Set PythonHome to /home/aljun/myproject/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1459b80
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145536 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1459b80 pid: 5811 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5811)
+spawned uWSGI worker 1 (pid: 5814, cores: 1)
+*** Starting uWSGI 2.0.11.1 (64bit) on [Sat Aug  8 01:15:15 2015] ***
+compiled with version: 4.8.2 on 26 July 2015 22:25:07
+os: Linux-3.13.0-24-generic #47-Ubuntu SMP Fri May 2 23:30:00 UTC 2014
+nodename: AljunPC
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/aljun/zdxs/zdxs
+writing pidfile to /home/aljun/zdxs/zdxs/zdxs-master.pid
+detected binary path: /home/aljun/myproject/venv/bin/uwsgi
+chdir() to /home/aljun/zdxs/zdxs
+your processes number limit is 30216
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/aljun/zdxs/zdxs/zdxs.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+Set PythonHome to /home/aljun/myproject/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x19f6bc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218304 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x19f6bc0 pid: 5858 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5858)
+spawned uWSGI worker 1 (pid: 5861, cores: 1)
+spawned uWSGI worker 2 (pid: 5862, cores: 1)
+*** Starting uWSGI 2.0.11.1 (64bit) on [Sat Aug  8 01:22:52 2015] ***
+compiled with version: 4.8.2 on 26 July 2015 22:25:07
+os: Linux-3.13.0-24-generic #47-Ubuntu SMP Fri May 2 23:30:00 UTC 2014
+nodename: AljunPC
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/aljun/zdxs/zdxs
+detected binary path: /home/aljun/myproject/venv/bin/uwsgi
+chdir() to /home/aljun/zdxs/zdxs
+your processes number limit is 30216
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/aljun/zdxs/zdxs/zdxs.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+Set PythonHome to /home/aljun/myproject/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1e41b90
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218304 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1e41b90 pid: 5947 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5947)
+spawned uWSGI worker 1 (pid: 5950, cores: 1)
+spawned uWSGI worker 2 (pid: 5951, cores: 1)
+[pid: 5951|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 787 bytes} [Fri Aug  7 17:22:53 2015] GET /blog/ => generated 7776 bytes in 54 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 5951|app: 0|req: 2/2] 127.0.0.1 () {42 vars in 758 bytes} [Fri Aug  7 17:22:54 2015] GET /js/jquery-2.1.4.js => generated 2656 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5950|app: 0|req: 1/3] 127.0.0.1 () {42 vars in 802 bytes} [Fri Aug  7 17:22:54 2015] GET /bootstrap-3.3.4-dist/js/bootstrap.min.js => generated 2722 bytes in 23 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5951|app: 0|req: 3/4] 127.0.0.1 () {42 vars in 758 bytes} [Fri Aug  7 17:22:54 2015] GET /js/jquery-2.1.4.js => generated 2656 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5951|app: 0|req: 4/5] 127.0.0.1 () {42 vars in 802 bytes} [Fri Aug  7 17:22:54 2015] GET /bootstrap-3.3.4-dist/js/bootstrap.min.js => generated 2722 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5951|app: 0|req: 5/6] 127.0.0.1 () {42 vars in 787 bytes} [Fri Aug  7 17:22:54 2015] GET /blog/ => generated 7776 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 5951|app: 0|req: 6/7] 127.0.0.1 () {42 vars in 758 bytes} [Fri Aug  7 17:22:54 2015] GET /js/jquery-2.1.4.js => generated 2656 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5950|app: 0|req: 2/8] 127.0.0.1 () {42 vars in 802 bytes} [Fri Aug  7 17:22:54 2015] GET /bootstrap-3.3.4-dist/js/bootstrap.min.js => generated 2722 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5951|app: 0|req: 7/9] 127.0.0.1 () {42 vars in 758 bytes} [Fri Aug  7 17:22:54 2015] GET /js/jquery-2.1.4.js => generated 2656 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5950|app: 0|req: 3/10] 127.0.0.1 () {42 vars in 802 bytes} [Fri Aug  7 17:22:54 2015] GET /bootstrap-3.3.4-dist/js/bootstrap.min.js => generated 2722 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5951|app: 0|req: 8/11] 127.0.0.1 () {42 vars in 787 bytes} [Fri Aug  7 17:22:55 2015] GET /blog/ => generated 7776 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 5950|app: 0|req: 4/12] 127.0.0.1 () {42 vars in 758 bytes} [Fri Aug  7 17:22:55 2015] GET /js/jquery-2.1.4.js => generated 2656 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5951|app: 0|req: 9/13] 127.0.0.1 () {42 vars in 802 bytes} [Fri Aug  7 17:22:55 2015] GET /bootstrap-3.3.4-dist/js/bootstrap.min.js => generated 2722 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5951|app: 0|req: 10/14] 127.0.0.1 () {42 vars in 758 bytes} [Fri Aug  7 17:22:55 2015] GET /js/jquery-2.1.4.js => generated 2656 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5950|app: 0|req: 5/15] 127.0.0.1 () {42 vars in 802 bytes} [Fri Aug  7 17:22:55 2015] GET /bootstrap-3.3.4-dist/js/bootstrap.min.js => generated 2722 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5951|app: 0|req: 11/16] 127.0.0.1 () {40 vars in 751 bytes} [Fri Aug  7 17:22:56 2015] GET / => generated 9095 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 5951|app: 0|req: 12/17] 127.0.0.1 () {40 vars in 722 bytes} [Fri Aug  7 17:22:56 2015] GET /js/jquery-2.1.4.js => generated 2656 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5950|app: 0|req: 6/18] 127.0.0.1 () {40 vars in 766 bytes} [Fri Aug  7 17:22:56 2015] GET /bootstrap-3.3.4-dist/js/bootstrap.min.js => generated 2722 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5950|app: 0|req: 7/19] 127.0.0.1 () {40 vars in 722 bytes} [Fri Aug  7 17:22:56 2015] GET /js/jquery-2.1.4.js => generated 2656 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5950|app: 0|req: 8/20] 127.0.0.1 () {40 vars in 766 bytes} [Fri Aug  7 17:22:56 2015] GET /bootstrap-3.3.4-dist/js/bootstrap.min.js => generated 2722 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5950|app: 0|req: 9/21] 127.0.0.1 () {40 vars in 756 bytes} [Fri Aug  7 17:22:57 2015] GET /data/ => generated 7461 bytes in 17 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 5951|app: 0|req: 13/22] 127.0.0.1 () {40 vars in 727 bytes} [Fri Aug  7 17:22:57 2015] GET /js/jquery-2.1.4.js => generated 2656 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5950|app: 0|req: 10/23] 127.0.0.1 () {40 vars in 771 bytes} [Fri Aug  7 17:22:57 2015] GET /bootstrap-3.3.4-dist/js/bootstrap.min.js => generated 2722 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5951|app: 0|req: 14/24] 127.0.0.1 () {40 vars in 727 bytes} [Fri Aug  7 17:22:57 2015] GET /js/jquery-2.1.4.js => generated 2656 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5950|app: 0|req: 11/25] 127.0.0.1 () {40 vars in 771 bytes} [Fri Aug  7 17:22:57 2015] GET /bootstrap-3.3.4-dist/js/bootstrap.min.js => generated 2722 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+...brutally killing workers...
+...brutally killing workers...
+...brutally killing workers...
+...brutally killing workers...
+...brutally killing workers...
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 1 buried after 1 seconds
+worker 1 buried after 1 seconds
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+binary reloading uWSGI...
+binary reloading uWSGI...
+binary reloading uWSGI...
+chdir() to /home/aljun/zdxs/zdxs
+chdir() to /home/aljun/zdxs/zdxs
+chdir() to /home/aljun/zdxs/zdxs
+chdir() to /home/aljun/zdxs/zdxs
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (/home/aljun/zdxs/zdxs/zdxs.sock)
+found fd 3 mapped to socket 0 (/home/aljun/zdxs/zdxs/zdxs.sock)
+found fd 3 mapped to socket 0 (/home/aljun/zdxs/zdxs/zdxs.sock)
+found fd 3 mapped to socket 0 (/home/aljun/zdxs/zdxs/zdxs.sock)
+running /home/aljun/myproject/venv/bin/uwsgi
+running /home/aljun/myproject/venv/bin/uwsgi
+running /home/aljun/myproject/venv/bin/uwsgi
+running /home/aljun/myproject/venv/bin/uwsgi
+binary reloading uWSGI...
+chdir() to /home/aljun/zdxs/zdxs
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (/home/aljun/zdxs/zdxs/zdxs.sock)
+running /home/aljun/myproject/venv/bin/uwsgi
+binary reloading uWSGI...
+chdir() to /home/aljun/zdxs/zdxs
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (/home/aljun/zdxs/zdxs/zdxs.sock)
+running /home/aljun/myproject/venv/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+[uWSGI] getting INI configuration from uwsgi.ini
+[uWSGI] getting INI configuration from uwsgi.ini
+[uWSGI] getting INI configuration from uwsgi.ini
+[uWSGI] getting INI configuration from uwsgi.ini
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.11.1 (64bit) on [Sat Aug  8 03:48:54 2015] ***
+compiled with version: 4.8.2 on 26 July 2015 22:25:07
+*** Starting uWSGI 2.0.11.1 (64bit) on [Sat Aug  8 03:48:54 2015] ***
+*** Starting uWSGI 2.0.11.1 (64bit) on [Sat Aug  8 03:48:54 2015] ***
+os: Linux-3.13.0-24-generic #47-Ubuntu SMP Fri May 2 23:30:00 UTC 2014
+compiled with version: 4.8.2 on 26 July 2015 22:25:07
+compiled with version: 4.8.2 on 26 July 2015 22:25:07
+*** Starting uWSGI 2.0.11.1 (64bit) on [Sat Aug  8 03:48:54 2015] ***
+nodename: AljunPC
+os: Linux-3.13.0-24-generic #47-Ubuntu SMP Fri May 2 23:30:00 UTC 2014
+compiled with version: 4.8.2 on 26 July 2015 22:25:07
+os: Linux-3.13.0-24-generic #47-Ubuntu SMP Fri May 2 23:30:00 UTC 2014
+nodename: AljunPC
+machine: x86_64
+nodename: AljunPC
+os: Linux-3.13.0-24-generic #47-Ubuntu SMP Fri May 2 23:30:00 UTC 2014
+machine: x86_64
+clock source: unix
+machine: x86_64
+nodename: AljunPC
+clock source: unix
+pcre jit disabled
+clock source: unix
+machine: x86_64
+pcre jit disabled
+detected number of CPU cores: 4
+pcre jit disabled
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/aljun/zdxs/zdxs
+detected number of CPU cores: 4
+pcre jit disabled
+current working directory: /home/aljun/zdxs/zdxs
+detected binary path: /home/aljun/myproject/venv/bin/uwsgi
+current working directory: /home/aljun/zdxs/zdxs
+detected number of CPU cores: 4
+detected binary path: /home/aljun/myproject/venv/bin/uwsgi
+detected binary path: /home/aljun/myproject/venv/bin/uwsgi
+current working directory: /home/aljun/zdxs/zdxs
+detected binary path: /home/aljun/myproject/venv/bin/uwsgi
+chdir() to /home/aljun/zdxs/zdxs
+chdir() to /home/aljun/zdxs/zdxs
+chdir() to /home/aljun/zdxs/zdxs
+chdir() to /home/aljun/zdxs/zdxs
+your processes number limit is 30216
+your processes number limit is 30216
+your processes number limit is 30216
+your memory page size is 4096 bytes
+your processes number limit is 30216
+your memory page size is 4096 bytes
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+lock engine: pthread robust mutexes
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+thunder lock: disabled (you can enable it with --thunder-lock)
+thunder lock: disabled (you can enable it with --thunder-lock)
+thunder lock: disabled (you can enable it with --thunder-lock)
+*** Starting uWSGI 2.0.11.1 (64bit) on [Sat Aug  8 03:48:54 2015] ***
+*** Starting uWSGI 2.0.11.1 (64bit) on [Sat Aug  8 03:48:54 2015] ***
+compiled with version: 4.8.2 on 26 July 2015 22:25:07
+compiled with version: 4.8.2 on 26 July 2015 22:25:07
+os: Linux-3.13.0-24-generic #47-Ubuntu SMP Fri May 2 23:30:00 UTC 2014
+os: Linux-3.13.0-24-generic #47-Ubuntu SMP Fri May 2 23:30:00 UTC 2014
+nodename: AljunPC
+nodename: AljunPC
+machine: x86_64
+machine: x86_64
+clock source: unix
+clock source: unix
+pcre jit disabled
+pcre jit disabled
+detected number of CPU cores: 4
+detected number of CPU cores: 4
+current working directory: /home/aljun/zdxs/zdxs
+current working directory: /home/aljun/zdxs/zdxs
+detected binary path: /home/aljun/myproject/venv/bin/uwsgi
+detected binary path: /home/aljun/myproject/venv/bin/uwsgi
+chdir() to /home/aljun/zdxs/zdxs
+chdir() to /home/aljun/zdxs/zdxs
+your processes number limit is 30216
+your processes number limit is 30216
+your memory page size is 4096 bytes
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/aljun/zdxs/zdxs/zdxs.sock fd 3
+uwsgi socket 0 inherited UNIX address /home/aljun/zdxs/zdxs/zdxs.sock fd 3
+uwsgi socket 0 inherited UNIX address /home/aljun/zdxs/zdxs/zdxs.sock fd 3
+uwsgi socket 0 inherited UNIX address /home/aljun/zdxs/zdxs/zdxs.sock fd 3
+uwsgi socket 0 inherited UNIX address /home/aljun/zdxs/zdxs/zdxs.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+Set PythonHome to /home/aljun/myproject/venv
+Set PythonHome to /home/aljun/myproject/venv
+Set PythonHome to /home/aljun/myproject/venv
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+Set PythonHome to /home/aljun/myproject/venv
+uwsgi socket 0 inherited UNIX address /home/aljun/zdxs/zdxs/zdxs.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+Set PythonHome to /home/aljun/myproject/venv
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+Set PythonHome to /home/aljun/myproject/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xfef850
+Python main interpreter initialized at 0x250a850
+Python main interpreter initialized at 0xa89850
+your server socket listen backlog is limited to 100 connections
+your server socket listen backlog is limited to 100 connections
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+your mercy for graceful operations on workers is 60 seconds
+your mercy for graceful operations on workers is 60 seconds
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x75d850
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218304 bytes (213 KB) for 2 cores
+mapped 218304 bytes (213 KB) for 2 cores
+mapped 218304 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+*** Operational MODE: preforking ***
+*** Operational MODE: preforking ***
+mapped 218304 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1afb850
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218304 bytes (213 KB) for 2 cores
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x18a3850
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: preforking ***
+mapped 218304 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0xfef850 pid: 5811 (default app)
+WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x1afb850 pid: 5858 (default app)
+WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x250a850 pid: 5757 (default app)
+WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x75d850 pid: 5778 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+*** uWSGI is running in multiple interpreter mode ***
+*** uWSGI is running in multiple interpreter mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 5757)
+gracefully (RE)spawned uWSGI master process (pid: 5811)
+gracefully (RE)spawned uWSGI master process (pid: 5778)
+gracefully (RE)spawned uWSGI master process (pid: 5858)
+WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x18a3850 pid: 5947 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 5947)
+spawned uWSGI worker 1 (pid: 11330, cores: 1)
+spawned uWSGI worker 1 (pid: 11329, cores: 1)
+spawned uWSGI worker 1 (pid: 11328, cores: 1)
+spawned uWSGI worker 1 (pid: 11331, cores: 1)
+spawned uWSGI worker 2 (pid: 11333, cores: 1)
+spawned uWSGI worker 2 (pid: 11334, cores: 1)
+spawned uWSGI worker 2 (pid: 11332, cores: 1)
+spawned uWSGI worker 2 (pid: 11335, cores: 1)
+spawned uWSGI worker 1 (pid: 11336, cores: 1)
+WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0xa89850 pid: 5731 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 5731)
+spawned uWSGI worker 1 (pid: 11337, cores: 1)
+spawned uWSGI worker 2 (pid: 11338, cores: 1)
+spawned uWSGI worker 2 (pid: 11339, cores: 1)
